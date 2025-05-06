@@ -1,6 +1,6 @@
 import blackLogo from '../../assets/black-bishop.svg'
 import whiteLogo from '../../assets/white-bishop.svg'
-import { Colors, FigureNames } from '../../shared/conts/const'
+import { Colors, FigureNames } from '../../shared/consts/consts'
 import type { Cell } from '../cell/cell'
 import { Figure } from './figure'
 
@@ -16,7 +16,10 @@ export class Bishop extends Figure {
 		if (!super.canMove(target)) {
 			return false
 		}
+		if (this.cell.isEmptyDiagonal(target)) {
+			return true
+		}
 		
-		return true
+		return false
 	}
 }

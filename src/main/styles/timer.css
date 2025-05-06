@@ -1,0 +1,17 @@
+.timer {
+	padding: 20px;
+	text-align: center;
+	border-radius: 16px;
+	background-color: lightgray;
+	margin-right: 50px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.timer button {
+	padding: 10px;
+	border-radius: 6px;
+	border: 1px solid lightcoral;
+	cursor: pointer;
+}

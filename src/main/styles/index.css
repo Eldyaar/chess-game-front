@@ -70,3 +70,24 @@ body {
 	transition: box-shadow 0.2s ease-in-out;
 	z-index: 2;
 }
+
+.lost {
+	height: calc(50vh - 60px);
+	padding: 30px;
+	margin-left: 50px;
+	background-color: lightgray;
+}
+
+.lost-list {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 5px;
+	padding: 10px;
+}
+
+.lost-list li {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}

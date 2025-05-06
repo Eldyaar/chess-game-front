@@ -15,14 +15,13 @@ export const CellComponent: FC<{
 				selected && 'selected',
 				cell.available && cell.figure && 'take-figure'
 			)}
-			onClick={() => console.log('clicke cell: ', cell)}
+			onClick={() => onClick(cell)}
 		>
 			{!cell.figure && cell.available && <div className='available' />}
 			{cell.figure?.logo && (
 				<img
 					src={cell.figure.logo}
 					alt={`${cell.figure.color}-${cell.figure.name}`}
-					onClick={() => onClick(cell)}
 				/>
 			)}
 		</div>

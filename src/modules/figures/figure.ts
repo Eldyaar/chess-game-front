@@ -1,6 +1,6 @@
 import { nanoid } from 'nanoid'
 import logo from '../../assets/white-queen.svg'
-import { FigureNames, type Colors } from '../../shared/conts/const'
+import { FigureNames, type Colors } from '../../shared/consts/consts'
 import type { Cell } from '../cell/cell'
 
 export class Figure {

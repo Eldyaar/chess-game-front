@@ -1,6 +1,6 @@
 import blackLogo from '../../assets/black-king.svg'
 import whiteLogo from '../../assets/white-king.svg'
-import { Colors, FigureNames } from '../../shared/conts/const'
+import { Colors, FigureNames } from '../../shared/consts/consts'
 import type { Cell } from '../cell/cell'
 import { Figure } from './figure'
 
