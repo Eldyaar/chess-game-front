@@ -60,7 +60,7 @@ export class Board {
 		}
 	}
 
-	private addKnights() {
+	private addKings() {
 		new King(Colors.BLACK, this.getCell(4, 0))
 		new King(Colors.WHITE, this.getCell(4, 7))
 	}
@@ -84,7 +84,7 @@ export class Board {
 		new Queen(Colors.WHITE, this.getCell(3, 7))
 	}
 
-	private addKings() {
+	private addKnights() {
 		new Knight(Colors.BLACK, this.getCell(1, 0))
 		new Knight(Colors.BLACK, this.getCell(6, 0))
 		new Knight(Colors.WHITE, this.getCell(1, 7))
